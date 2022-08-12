@@ -8,8 +8,9 @@ Parte do Front-End do Projeto [Roblox](https://www.roblox.com/) Clone
 ## Técnicas utilizadas:
 
 - ContextAPI
-- Requisição de API
-- ContextAPI
+- Requisição de API RESTful
+- Autenticação via token JWT
+- Persistência de token
 
 ## Instalação
 
