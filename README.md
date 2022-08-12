@@ -5,11 +5,11 @@
 Projeto em ReactJS + Typescript
 Parte do Front-End do Projeto [Roblox](https://www.roblox.com/) Clone
 
-##Técnicas utilizadas:
+## Técnicas utilizadas:
 
 - ContextAPI
 - Requisição de API
-- - ContextAPI
+- ContextAPI
 
 ## Instalação
 
