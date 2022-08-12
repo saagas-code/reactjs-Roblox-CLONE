@@ -1,0 +1,98 @@
+* {
+    
+}
+
+
+.mainGame {
+    background-color: #f2f4f5;
+    color: black;
+    width: 100vw;
+    height: 100vw;
+    margin-left: auto;
+    margin-top: 40px;
+    padding-top: 125px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.templateArea {
+    background-color: #f2f4f5;
+    width: 1155px;
+    display: flex;
+    flex-direction: column;
+
+}
+.mainInfoGame {
+    display: flex;
+    height: 400px;
+    background-color: red;
+}
+.mainInfoGame div {
+    flex: 1;
+}
+.mainInfoGame img {
+    width: 650px;
+    height: 100%;
+}
+.infoGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #f2f4f5;
+    
+}
+.infoName {
+    padding: 20px;
+}
+.infoName h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.infoName h3 {
+
+}
+.infoName h3 a {
+    text-decoration: none;
+    color: black;
+}
+.infoName h3 a:hover {
+    text-decoration: underline;
+}
+.playGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+
+}
+.infoGame button {
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #00B06F;
+    border: 0px;
+    cursor: pointer;
+}
+.likes {
+    display: flex;
+    width: 100%;
+}
+.likes div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.statistics:hover {
+    background-color: gray;
+}

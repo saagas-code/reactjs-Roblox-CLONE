@@ -1,0 +1,749 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    z-index: 8;
+    
+}
+.fundo {
+    background-color: #f2f4f5;
+}
+.fundo2 {
+    background-color: #f2f4f5;
+}
+.fundo4 {
+    background-color: #f2f4f5;
+}
+.fundo5 {
+    background-color: #f2f4f5;
+}
+.logarBody {
+    background-color: #f2f4f5;
+}
+
+.header {
+    height: 40px;
+    background-color: #DEE1E3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 9;
+
+}
+
+/* header left */
+
+.headerleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+.headerleft ul {
+    margin-left: 21px;
+    cursor: pointer;
+}
+.logo {
+    padding-left: 12px;
+    padding-right: 70px;
+    cursor: pointer;
+    
+}
+.header img {
+    width: 100px;
+    height: 80px;
+}
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+li {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+    border-bottom: solid 2px transparent;
+    
+}
+li:hover {
+    border-bottom: solid 2px black;
+}
+.iconsearch {
+    position: relative;
+    z-index: 1;
+    left: 23px;
+    top:  2px;
+}
+.search {
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    min-width: 400px;
+    z-index: 0;
+    outline: 0;
+    
+    padding-left: 33px;
+}
+#search::-webkit-input-placeholder {
+    
+    padding-left: 0px;
+}
+
+/* header right */
+
+.headerRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.accountInfo,
+.notify,
+.robuxInfo,
+.config {
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.accountInfo span {
+    font-size: 25px
+}
+.headerRight i {
+    font-size: 25px;
+}
+.accountInfo a {
+    color: black;
+    text-decoration: none;
+    
+}
+.accountInfo a,
+.accountInfo span:last-child {
+    position: relative;
+    bottom: 3px;
+}
+
+.accountInfo a:hover {
+    text-decoration: underline;
+    
+}
+
+.accountInfo span:last-child {
+    color: gray;
+    font-size: 12px;
+}
+.circulo {
+    padding-right: 10px;
+}
+
+
+.notify {
+    background-color: transparent;
+    padding: 6px;
+    border-radius: 6px;
+}
+.notify:hover {
+    background-color: #C7CACC;
+}
+
+.robuxInfo {
+    background-color: transparent;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.robuxInfo:hover {
+    background-color: #C7CACC;
+    padding: 6px;
+    border-radius: 6px;
+}
+.robuxInfo span:last-child {
+    position: relative;
+    
+}
+.config {
+    background-color: transparent;
+    padding: 6px;
+    border-radius: 6px;
+    margin-right: 0px;
+}
+
+.config:hover {
+    background-color: #C7CACC;
+    padding: 6px;
+    border-radius: 6px;
+
+}
+.configList {
+    transform-origin: top;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 10px;
+    padding: 0px 0px;
+    margin-right: 0px;
+    transition: all .4s ease-in-out;
+    transform-origin: top;
+    opacity: 1;
+    
+
+    
+}
+.configList ul {
+    display: flex;
+    flex-direction: column;
+}
+.configList ul li:hover {
+    background-color: #E5E5E5;
+}
+.configList ul li {
+    font-size: 18px;
+    padding: 0px 10px;
+    border-bottom: none;
+    font-weight: bold;
+    color: #616262;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    transform-origin: top;
+}
+.link2 {
+    text-decoration: none;
+    color: #616262;
+}
+.link3 {
+    text-decoration: none;
+    color: black;
+}
+
+.configList ul .triangulo {
+    background-color: transparent;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: relative;
+    left: 97px;
+    bottom: 8px;
+}
+
+
+.headerRight button {
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 18px;
+    
+}
+.firstButton {
+    color: #616262;
+    border: 1px solid #616262;
+}
+.firstButton:hover {
+    color: #232527;
+}
+.greenButton {
+    background-color: #00B06F;
+    border: 1px solid transparent;
+    color: white;
+}
+
+/* -------------SECTION -----------*/
+
+.section {
+    background-color: #DEE1E3;
+    width: 10vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    margin-top: 40px;
+    
+}
+
+
+.accountInfoLeft {
+    border-bottom: 1px solid #C7CACC;
+    border-top: 1px solid #C7CACC;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding: 20px;
+    margin-left: -15px;
+    
+}
+.accountInfoLeft span {
+    padding: 5px 5px;
+    font-size: 25px;
+}
+.accountInfoLeft span:last-child {
+    font-size: 17px;
+}
+
+
+.listLeft ul {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    white-space: nowrap;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.listLeft {
+    padding-top: 10px;
+}
+.listLeft li {
+    padding: 0px;
+    padding-left: 10px;
+    border-top: 1px solid transparent;
+}
+
+.listLeft li:hover {
+    border: none;
+    background-color: #C7CACC;
+}
+.listLeft ul li span:first-child {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listLeft ul li span:last-child {
+    padding-left: 5px;
+}
+.buttom {
+    background-color: #393B3D;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    white-space: nowrap;
+    color: white;
+
+}
+.buttom:hover {
+    cursor: pointer;
+}
+.events {
+    font-size: 20px;
+    color: #393B3D;
+    padding-left: 13px;
+}
+
+/* -------------MAIN -----------*/
+
+.main {
+    margin-left: 11vw;
+    margin-top: 40px;
+    background-color: #f2f4f5;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: hidden;
+    transform-origin: top;
+    height: 100vw;
+    
+    
+}
+
+.gamesArea {
+    display: flex;
+    width: 85vw;
+    height: 240px;
+    background-color: #f2f4f5;
+}
+.slideArea,
+.slideArea2,
+.slideArea3 {
+    background-color: #f2f4f5;
+    width: 170vw;
+    height: 240px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    z-index: 4;
+    transition: all 0.5s ease-out
+}
+.leftArrow,
+.rightArrow,
+.leftArrow2,
+.rightArrow2,
+.leftArrow3,
+.rightArrow3 {
+    background-color: #C7CACC;
+    justify-content: center;
+    padding: 0px 10px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    z-index: 5;
+}
+.gameSlot {
+    width: 150px;
+    height: 240px;
+    background-color: #f2f4f5;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.gamePhoto {
+    background-color: black;
+    border-radius: 10%;
+
+}
+
+.gamePhoto img {
+    border-radius: 10%;
+    padding-left: -10px;
+}
+.gamePhoto img:hover {
+    opacity: 0.6;
+    transition: 1s;
+    
+}
+
+.gameName {
+    font-size: 18px;
+    text-align: center;
+}
+.gameInfo {
+    font-size: 15px;
+    color: #616262;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.gameInfo span {
+    padding: 0px 15px;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.models {
+    display: none;
+}
+.title {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
+}
+.like,
+.players {
+    display: flex;
+    
+}
+
+.like div {
+    padding-left: 5px;
+}
+.players div {
+    padding-left: 5px;
+}
+
+
+/* ---------- CADASTRO ----------*/
+
+.cadastroBody {
+    width: 100vw;
+    height: 51vw;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    font-weight: bold;
+}
+.login {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    color: white;
+}
+.loginText {
+    color: black;
+    width: 130px;
+    height: 30px;
+    margin-right: 100px;
+    background-color: white;
+    white-space: nowrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+.loginText link {
+    color: black;
+    width: 130px;
+    height: 30px;
+    margin-right: 100px;
+    background-color: white;
+    white-space: nowrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+.loginText:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.roblox {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 80px;
+    width: 100%;
+    font-weight: bold;
+}
+.registro {
+    width: 100%;
+    height: 700px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registroInfo {
+    background-color: #232527;
+    width: 470px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registroinfo div {
+
+}
+
+
+.registroInfo span:first-child {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+form select {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form select:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+.First {
+    border-radius: 10px 0px 0px 10px;
+}
+.input0 {
+    width: 360px;
+    
+}
+
+
+.registroInfo input::-moz-placeholder {
+    margin-left: 10px;
+}
+.registroInfo input::-webkit-input-placeholder {
+    font-size: 18px;
+    
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+}
+.gender div {
+    display: flex;
+    width: 360px;
+    height: 40px;
+    flex-direction: row;
+}
+.gender button {
+    flex: 1;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.gender button:hover {
+    border-color: white;
+}
+.gender button:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+.gender button:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+.termos {
+    width: 360px;
+    height: 40px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.termos a {
+    color: #009ACF
+}
+.cadastrar {
+    width: 360px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* ---------- LOGIN ----------*/
+
+.loginBody {
+    margin-top: 40px;
+    width: 100vw;
+    height: 930px;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.loginArea {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    margin-top: 10px;
+}
+.loginSpace {
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginSpace .info {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.loginForm {
+    width: 100%;
+}
+.loginForm input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid #DEE1E3;
+    border-radius: 10px;
+    color: #616262;
+    font-size: 18px;
+    outline: 0;
+}
+.loginForm input::-moz-placeholder {
+    margin-left: 10px;
+    color: #DEE1E3;;
+}
+.loginForm input::-webkit-input-placeholder {
+    font-size: 18px;
+    color: #DEE1E3;;
+    
+}
+.loginArea button {
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #616262;
+    cursor: pointer;
+}
+.loginSpace .recoverer {
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    
+}
+.loginSpace .recoverer a {
+    text-decoration: none;
+    color: black
+}
+.loginSpace .recoverer a:hover {
+    text-decoration: underline;
+    
+}
+.createAccount {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.createAccount span {
+    margin: 0px 10px;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    background-color: #C7CACC;
+    margin-top: 5px;
+}
+.criarConta {
+    margin-top: 20px;
+}
+.loginSpace span:last-child {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #707070;
+}
+.loginSpace span:last-child a {
+    text-decoration: none;
+    color: black;
+    
+}
+.loginSpace span:last-child a:hover {
+    text-decoration: underline;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
