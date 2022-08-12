@@ -11,6 +11,7 @@ Parte do Front-End do Projeto [Roblox](https://www.roblox.com/) Clone
 - Requisição de API RESTful
 - Autenticação via token JWT
 - Persistência de token
+- Criptografia de Senha
 
 ## Instalação
 
