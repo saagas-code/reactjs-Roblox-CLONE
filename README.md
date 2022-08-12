@@ -1,5 +1,7 @@
 # FRONT-END Roblox CLONE
 
+![](https://github.com/SaagaS0/Roblox-GIFF/blob/main/ezgif.com-gif-maker.gif?raw=true)
+
 Projeto em ReactJS + Typescript
 Parte do Front-End do Projeto [Roblox](https://www.roblox.com/) Clone
 
