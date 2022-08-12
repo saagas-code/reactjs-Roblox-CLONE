@@ -1,16 +1,16 @@
-# React ROBLOX
+# FRONT-END Roblox CLONE
 
-Projeto em React + Typescript
-Criando uma cópia do site [Roblox](https://b7web.com.br)
-Treinando os conhecimentos adquiridos das aulas de react durante o curso [B7Web](https://b7web.com.br)
+Projeto em ReactJS + Typescript
+Parte do Front-End do Projeto [Roblox](https://www.roblox.com/) Clone
 
+## Instalação
 
-
-### Instalação
-- `npm install`
-
-### Para rodar
-- `npm start`
+**1 -** Rodar comandos no Terminal:
+```sh
+$ npm install
+$ npm start
+```
+Para rodar o Projeto é necessário estar rodando o [Back-END](https://github.com/SaagaS0/nodejs-Roblox-CLONE/) do Projeto.
 
 ## License
 © [SaagaS](https://github.com/SaagaS0)
