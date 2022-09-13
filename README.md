@@ -1,6 +1,5 @@
 # FRONT-END Roblox CLONE
 
-![](https://github.com/SaagaS0/Roblox-GIFF/blob/main/ezgif.com-gif-maker.gif?raw=true)
 ![](https://github.com/biixin/Roblox-GIFF/blob/main/ezgif.com-gif-maker%20(4).gif)
 
 
