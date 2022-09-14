@@ -1,10 +1,11 @@
-# FRONT-END Roblox CLONE
+# FRONT-END GAME3RB CLONE
 
-![](https://github.com/biixin/Roblox-GIFF/blob/main/ezgif.com-gif-maker%20(4).gif)
+![](https://github.com/biixin/game3rb-giff/blob/main/ezgif.com-gif-maker.gif)
 
 
 Projeto em ReactJS + Typescript
-Parte do Front-End do Projeto [Roblox](https://www.roblox.com/) Clone
+Parte do Front-End do Projeto [Roblox](https://www.roblox.com/) Clone <br />
+Projeto inspirado no site [GAME3RB](https://game3rb.com/)
 
 ## Técnicas utilizadas:
 
@@ -13,6 +14,7 @@ Parte do Front-End do Projeto [Roblox](https://www.roblox.com/) Clone
 - Autenticação via token JWT
 - Persistência de token
 - Criptografia de Senha
+- Paginacão
 
 ## Instalação
 
@@ -21,7 +23,7 @@ Parte do Front-End do Projeto [Roblox](https://www.roblox.com/) Clone
 $ npm install
 $ npm start
 ```
-Para rodar o Projeto é necessário estar rodando o [Back-END](https://github.com/SaagaS0/nodejs-Roblox-CLONE/) do Projeto.
+Para rodar o Projeto é necessário estar rodando o [Back-END](https://github.com/saagas-code/NodeJS-GAME3RB-Clone/) do Projeto.
 
 ## License
-© [SaagaS](https://github.com/SaagaS0)
+
